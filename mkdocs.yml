@@ -1,8 +1,8 @@
-site_name: Мои документы # Название сайта
-site_description: Ревью и стайлгайд # Описание сайта, добавляется в meta-теги
+site_name: Питоны и жабы # Название сайта
+site_description: Про питонов и жаб: их повадки и выдающийся ум # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
-  logo: frog.jpg # Ссылка на логотип сайта
+  logo: logo.png # Ссылка на логотип сайта
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
@@ -28,26 +28,26 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: blue # Основной цвет
-      accent: purple # Акцентный цвет
+      primary: green # Основной цвет
+      accent: brown # Акцентный цвет
     # Настройки тёмной темы
     - scheme: slate
       toggle:
         icon: material/weather-night
         name: Позвать солнышко
-      primary: deep purple
-      accent: blue
+      primary: brown
+      accent: green
 
 nav: # Структура сайта
     - Главная страница: index.md
-    - Ревью: 
-      - review/index.md
-      - Список компетенций: review/list-alekseeva.md
-      - Самооценка: review/self-review-alekseeva.md
-    - Стайлгайд:
-      - style/index.md
-      - Единый свод: style/edinyi_svod_pravil_prakticheskoi_stilistiki.md
-      - Советы по стилю: style/styleguide.md
+    - Питоны: 
+      - python/index.md
+      - Факты о питонах: python/python-general.md
+      - Поэма о питонах: python/python-poem.md
+    - Жабы:
+      - toad/index.md
+      - Милые жабы: toad/toad-general.md
+      - Жабы в культуре: toad/toad-in-culture.md
 
 extra:
   social: # Ссылки на соц.сети
